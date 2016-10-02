@@ -35,13 +35,16 @@ Prior to the event the database is populated with the following data:
 
 ### Task:
 Implement the following:
+
 1. Server/Service which is capable of receiving realtime data. There is no real test client develop a dummy one yourself.
 2. Web user interface where data is shown in a table which gets realtime updates.
-2.1. When an athlete enters the finish coridor their name gets added to the table with their starting number and name.
-2.2. When an athlete crosses the finish line their finish time gets added to their line.
-2.3. Construct the UI in a way so that recently finished or arrived athletes get added to the table so that the viewing user does not have to do any extra work.
-2.4. Demonstrate the functionality of the system using a dummy client.
-2.5. Design the UI in a way that the user would not have to do any extra work in order to understand whats going on.
+  1 When an athlete enters the finish coridor their name gets added to the table with their starting number and name.
+  2. When an athlete crosses the finish line their finish time gets added to their line.
+  3. Construct the UI in a way so that recently finished or arrived athletes get added to the table so that the viewing user does not have to do any extra work.
+  4. Demonstrate the functionality of the system using a dummy client.
+  5. Design the UI in a way that the user would not have to do any extra work in order to understand whats going on.
 
 ### Non-mandatory extra tasks:
-3. Make sure that the 
+3. Make sure that the finishing athletes are displayed in the correct order. (If athlete A enters the corridor after B but crosses the finish line before B updates are made correspondingly)
+4. Make the UI only query the backend if the browser window is currently active.
+5. If the browser window is awaken and retargeted as the main window then make sure that the user understands and sees what has happened while they were not observing the UI.
